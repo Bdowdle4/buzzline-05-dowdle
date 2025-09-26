@@ -49,6 +49,20 @@ from utils.utils_logger import logger
 # optional local emitters (single-responsibility helpers)
 from utils.emitters import file_emitter, kafka_emitter, sqlite_emitter, duckdb_emitter
 
+# adding this so kafka consumer code works without an error
+def is_topic_available(topic: str) -> bool:
+    """
+    Simple wrapper to check if a Kafka topic exists.
+    In this case, we just call create_kafka_topic (idempotent).
+    Returns True if topic exists or is created successfully.
+    """
+    try:
+        create_kafka_topic(topic)
+        logger.info(f"Verified topic '{topic}' is available.")
+        return True
+    except Exception as e:
+        logger.error(f"Topic check failed for '{topic}': {e}")
+        return False
 
 #####################################
 # Stub Sentiment Analysis Function

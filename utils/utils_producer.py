@@ -219,6 +219,20 @@ def clear_kafka_topic(topic_name: str, group_id: Optional[str] = None):
     finally:
         admin_client.close()
 
+# adding this so kafka consumer code works without an error
+def is_topic_available(topic: str) -> bool:
+    """
+    Simple wrapper to check if a Kafka topic exists.
+    In this case, we just call create_kafka_topic (idempotent).
+    Returns True if topic exists or is created successfully.
+    """
+    try:
+        create_kafka_topic(topic)
+        logger.info(f"Verified topic '{topic}' is available.")
+        return True
+    except Exception as e:
+        logger.error(f"Topic check failed for '{topic}': {e}")
+        return False
 
 #####################################
 # Main Function for Testing

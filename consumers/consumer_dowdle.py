@@ -31,6 +31,8 @@ from utils.utils_consumer import create_kafka_consumer
 
 BASE_DIR = pathlib.Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)  # make sure data folder exists
+
 SQLITE_PATH = DATA_DIR / "dowdle.sqlite"
 JSON_PATH = DATA_DIR / "dowdle_live.json"
 
@@ -81,7 +83,7 @@ def update_keyword_count(db_path: pathlib.Path, keyword: str):
 #####################################
 
 def update_json_file(json_path: pathlib.Path, keyword: str):
-    """Increment keyword count in JSON file."""
+    """Increment keyword count in JSON file inside data folder."""
     if json_path.exists():
         with open(json_path, "r") as f:
             counts = json.load(f)
@@ -92,6 +94,8 @@ def update_json_file(json_path: pathlib.Path, keyword: str):
 
     with open(json_path, "w") as f:
         json.dump(counts, f, indent=4)
+
+    logger.info(f"Updated JSON file {json_path} with {keyword}={counts[keyword]}")
 
 
 #####################################
@@ -131,7 +135,7 @@ def consume_messages():
     logger.info("Step 3. Verify topic exists.")
     is_topic_available(TOPIC)
 
-    logger.info("Step 4. Process messages in real time.")
+    logger.info("Step 4. Process messages in real time (Ctrl+C to stop).")
     for record in consumer:
         process_message(record.value)
 

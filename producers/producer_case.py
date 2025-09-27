@@ -43,7 +43,7 @@ from kafka import KafkaProducer  # kafka-python-ng
 
 # local
 import utils.utils_config as config
-from utils.utils_producer import verify_services, create_kafka_topic
+from utils.utils_producer import verify_services, create_kafka_topic, DEFAULT_KAFKA_TOPIC, DEFAULT_KAFKA_BROKER_ADDRESS
 from utils.utils_logger import logger
 
 # optional local emitters (single-responsibility helpers)
@@ -137,12 +137,12 @@ def emit_to_duckdb(message: Mapping[str, Any], *, db_path: pathlib.Path) -> bool
 def main() -> None:
     logger.info("Starting Producer to run continuously.")
     logger.info("Use Ctrl+C to stop.")
-
+    
     # STEP 1. Read config
     try:
         interval_secs: int = config.get_message_interval_seconds_as_int()
-        topic: str = config.get_kafka_topic()
-        kafka_server: str = config.get_kafka_broker_address()
+        topic: str = DEFAULT_KAFKA_TOPIC
+        kafka_server: str = DEFAULT_KAFKA_BROKER_ADDRESS
         live_data_path: pathlib.Path = config.get_live_data_path()
         # Optional DB paths (fallbacks if not provided)
         sqlite_path: pathlib.Path = (

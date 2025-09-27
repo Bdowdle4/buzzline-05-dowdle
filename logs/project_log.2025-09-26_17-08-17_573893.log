@@ -1,0 +1,415 @@
+2025-09-26 17:08:17 | INFO | {'message': 'I just loved a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:08:17', 'category': 'humor', 'sentiment': 0.38, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-26 17:08:22 | INFO | {'message': 'I just saw travel! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:08:22', 'category': 'travel', 'sentiment': 0.31, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-26 17:08:27 | INFO | {'message': 'I just loved a trick! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 17:08:27', 'category': 'other', 'sentiment': 0.72, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 17:08:32 | INFO | {'message': 'I just loved recipe! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:08:32', 'category': 'food', 'sentiment': 0.09, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-26 17:08:37 | INFO | {'message': 'I just shared a trick! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-26 17:08:37', 'category': 'other', 'sentiment': 0.19, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-26 17:08:39 | WARNING | Producer interrupted by user.
+2025-09-26 17:08:39 | INFO | Producer shutting down.
+2025-09-26 17:14:21 | INFO | Logging to file: logs/project_log.log
+2025-09-26 17:14:21 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 17:14:21 | INFO | Starting Producer to run continuously.
+2025-09-26 17:14:21 | INFO | Use Ctrl+C to stop.
+2025-09-26 17:14:21 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 17:14:21 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 17:14:21 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 17:14:21 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 17:14:21 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 17:14:21 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 17:14:21 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 17:14:21 | INFO | Deleted existing live data file.
+2025-09-26 17:14:21 | INFO | Kafka broker address: localhost:9092
+2025-09-26 17:14:22 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 17:14:24 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 17:14:24 | INFO | {'message': 'I just shared a trick! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-26 17:14:24', 'category': 'other', 'sentiment': 0.14, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-26 17:14:27 | WARNING | Producer interrupted by user.
+2025-09-26 17:14:27 | INFO | Producer shutting down.
+2025-09-26 17:18:47 | INFO | Logging to file: logs/project_log.log
+2025-09-26 17:18:47 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 17:18:48 | INFO | Starting Producer to run continuously.
+2025-09-26 17:18:48 | INFO | Use Ctrl+C to stop.
+2025-09-26 17:18:48 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 17:18:48 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 17:18:48 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 17:18:48 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 17:18:48 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 17:18:48 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 17:18:48 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 17:18:48 | INFO | Deleted existing live data file.
+2025-09-26 17:18:48 | INFO | Kafka broker address: localhost:9092
+2025-09-26 17:18:48 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 17:18:50 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 17:18:50 | INFO | {'message': 'I just found game! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:18:50', 'category': 'gaming', 'sentiment': 0.09, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-26 17:18:55 | INFO | {'message': 'I just found travel! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-26 17:18:55', 'category': 'travel', 'sentiment': 0.15, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-26 17:19:00 | INFO | {'message': 'I just tried an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 17:19:00', 'category': 'other', 'sentiment': 0.35, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 17:19:05 | INFO | {'message': 'I just loved Python! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-26 17:19:05', 'category': 'tech', 'sentiment': 0.2, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-26 17:19:09 | INFO | Logging to file: logs/project_log.log
+2025-09-26 17:19:09 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 17:19:09 | INFO | Starting Consumer to run continuously.
+2025-09-26 17:19:09 | INFO | Things can fail or get interrupted, so use a try block.
+2025-09-26 17:19:09 | INFO | Moved .env variables into a utils config module.
+2025-09-26 17:19:09 | INFO | STEP 1. Read environment variables using new config functions.
+2025-09-26 17:19:09 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 17:19:09 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 17:19:09 | INFO | BUZZ_CONSUMER_GROUP_ID: buzz_group
+2025-09-26 17:19:09 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 17:19:09 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 17:19:09 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 17:19:09 | INFO | SUCCESS: Read environment variables.
+2025-09-26 17:19:09 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-26 17:19:09 | INFO | SUCCESS: Deleted database file.
+2025-09-26 17:19:09 | INFO | STEP 3. Initialize a new database with an empty table.
+2025-09-26 17:19:09 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-26 17:19:09 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-26 17:19:09 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite.
+2025-09-26 17:19:09 | INFO | STEP 4. Begin consuming and storing messages.
+2025-09-26 17:19:09 | INFO | Called consume_messages_from_kafka() with:
+2025-09-26 17:19:09 | INFO |    topic='buzzline'
+2025-09-26 17:19:09 | INFO |    kafka_url='127.0.0.1:9092'
+2025-09-26 17:19:09 | INFO |    group='buzz_group'
+2025-09-26 17:19:09 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite')
+2025-09-26 17:19:09 | INFO |    interval_secs=5
+2025-09-26 17:19:09 | INFO | Step 1. Verify Kafka Services.
+2025-09-26 17:19:09 | INFO | Kafka broker address: localhost:9092
+2025-09-26 17:19:10 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 17:19:10 | INFO | Step 2. Create a Kafka consumer.
+2025-09-26 17:19:10 | INFO | Kafka broker address: localhost:9092
+2025-09-26 17:19:10 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='buzz_group'.
+2025-09-26 17:19:10 | INFO | Kafka consumer created successfully.
+2025-09-26 17:19:10 | INFO | Step 3. Verify topic exists.
+2025-09-26 17:19:10 | INFO | Kafka broker address: localhost:9092
+2025-09-26 17:19:10 | INFO | Topic 'buzzline' already exists. Recreating fresh...
+2025-09-26 17:19:10 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-26 17:19:10', 'category': 'humor', 'sentiment': 0.19, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-26 17:19:11 | INFO | Requested deletion of topic 'buzzline'.
+2025-09-26 17:19:11 | INFO | Topic 'buzzline' created successfully.
+2025-09-26 17:19:11 | INFO | Verified topic 'buzzline' is available.
+2025-09-26 17:19:11 | INFO | Kafka topic 'buzzline' is ready.
+2025-09-26 17:19:11 | INFO | Step 4. Process messages.
+2025-09-26 17:19:15 | INFO | {'message': 'I just saw a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 17:19:15', 'category': 'humor', 'sentiment': 0.29, 'keyword_mentioned': 'meme', 'message_length': 33}
+2025-09-26 17:19:20 | INFO | {'message': 'I just saw a movie! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:19:20', 'category': 'entertainment', 'sentiment': 0.58, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-26 17:19:25 | INFO | {'message': 'I just saw a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:19:25', 'category': 'humor', 'sentiment': 0.69, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-26 17:19:30 | INFO | {'message': 'I just found game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 17:19:30', 'category': 'gaming', 'sentiment': 0.01, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-26 17:19:35 | INFO | {'message': 'I just saw game! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:19:35', 'category': 'gaming', 'sentiment': 0.68, 'keyword_mentioned': 'game', 'message_length': 30}
+2025-09-26 17:19:40 | INFO | {'message': 'I just shared a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:19:40', 'category': 'other', 'sentiment': 0.75, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 17:19:45 | INFO | {'message': 'I just saw a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-26 17:19:45', 'category': 'entertainment', 'sentiment': 0.12, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-26 17:19:50 | INFO | {'message': 'I just shared Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 17:19:50', 'category': 'tech', 'sentiment': 0.19, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-26 17:19:55 | INFO | {'message': 'I just shared a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 17:19:55', 'category': 'humor', 'sentiment': 0.11, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-26 17:20:00 | INFO | {'message': 'I just tried a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 17:20:00', 'category': 'humor', 'sentiment': 0.75, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-26 17:20:05 | INFO | {'message': 'I just found an app! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-26 17:20:05', 'category': 'other', 'sentiment': 0.84, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-26 17:20:10 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:20:10', 'category': 'humor', 'sentiment': 0.37, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-26 17:20:15 | INFO | {'message': 'I just tried game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 17:20:15', 'category': 'gaming', 'sentiment': 0.97, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 17:20:20 | INFO | {'message': 'I just tried JavaScript! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 17:20:20', 'category': 'tech', 'sentiment': 0.84, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-26 17:20:25 | INFO | {'message': 'I just saw a meme! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-26 17:20:25', 'category': 'humor', 'sentiment': 0.0, 'keyword_mentioned': 'meme', 'message_length': 33}
+2025-09-26 17:20:30 | INFO | {'message': 'I just shared a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 17:20:30', 'category': 'humor', 'sentiment': 0.95, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-26 17:20:35 | INFO | {'message': 'I just tried recipe! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-26 17:20:35', 'category': 'food', 'sentiment': 0.83, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-26 17:20:40 | INFO | {'message': 'I just tried an app! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 17:20:40', 'category': 'other', 'sentiment': 0.18, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 17:20:45 | INFO | {'message': 'I just tried Python! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-26 17:20:45', 'category': 'tech', 'sentiment': 0.08, 'keyword_mentioned': 'Python', 'message_length': 37}
+2025-09-26 17:20:50 | INFO | {'message': 'I just found a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-26 17:20:50', 'category': 'other', 'sentiment': 0.16, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-26 17:20:55 | INFO | {'message': 'I just tried a story! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 17:20:55', 'category': 'other', 'sentiment': 0.57, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 17:21:00 | INFO | {'message': 'I just loved recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 17:21:00', 'category': 'food', 'sentiment': 0.42, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-26 17:21:01 | WARNING | Consumer interrupted by user.
+2025-09-26 17:21:01 | INFO | Consumer shutting down.
+2025-09-26 17:21:04 | WARNING | Producer interrupted by user.
+2025-09-26 17:21:04 | INFO | Producer shutting down.
+2025-09-26 18:20:51 | INFO | Logging to file: logs/project_log.log
+2025-09-26 18:20:51 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 18:20:52 | INFO | Starting Producer to run continuously.
+2025-09-26 18:20:52 | INFO | Use Ctrl+C to stop.
+2025-09-26 18:20:52 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 18:20:52 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 18:20:52 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 18:20:52 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 18:20:52 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 18:20:52 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 18:20:52 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 18:20:52 | INFO | Deleted existing live data file.
+2025-09-26 18:20:52 | INFO | Kafka broker address: localhost:9092
+2025-09-26 18:20:53 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 18:20:55 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 18:20:55 | INFO | {'message': 'I just loved a meme! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 18:20:55', 'category': 'humor', 'sentiment': 0.99, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-26 18:21:00 | INFO | {'message': 'I just shared a trick! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-26 18:21:00', 'category': 'other', 'sentiment': 0.88, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-26 18:21:05 | INFO | {'message': 'I just tried an app! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 18:21:05', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 18:21:10 | INFO | {'message': 'I just shared a movie! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:21:10', 'category': 'entertainment', 'sentiment': 0.41, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-26 18:21:15 | INFO | {'message': 'I just tried a trick! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:21:15', 'category': 'other', 'sentiment': 0.92, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-26 18:21:20 | INFO | {'message': 'I just shared recipe! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-26 18:21:20', 'category': 'food', 'sentiment': 0.26, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-26 18:21:22 | INFO | Logging to file: logs/project_log.log
+2025-09-26 18:21:22 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 18:21:22 | INFO | Starting consumer_dowdle.
+2025-09-26 18:21:22 | INFO | Initializing SQLite DB at C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle.sqlite
+2025-09-26 18:21:22 | INFO | Step 1. Verify Kafka Services.
+2025-09-26 18:21:22 | INFO | Kafka broker address: localhost:9092
+2025-09-26 18:21:23 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 18:21:23 | INFO | Step 2. Create Kafka consumer.
+2025-09-26 18:21:23 | INFO | Kafka broker address: localhost:9092
+2025-09-26 18:21:23 | INFO | Creating Kafka consumer. Topic='buzzline_dowdle' and group ID='buzz_dowdle'.
+2025-09-26 18:21:23 | INFO | Kafka consumer created successfully.
+2025-09-26 18:21:23 | INFO | Step 3. Verify topic exists.
+2025-09-26 18:21:23 | INFO | Kafka broker address: localhost:9092
+2025-09-26 18:21:23 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 18:21:24 | INFO | Verified topic 'buzzline_dowdle' is available.
+2025-09-26 18:21:24 | INFO | Step 4. Process messages in real time.
+2025-09-26 18:21:25 | INFO | {'message': 'I just saw Python! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 18:21:25', 'category': 'tech', 'sentiment': 0.5, 'keyword_mentioned': 'Python', 'message_length': 32}
+2025-09-26 18:21:30 | INFO | {'message': 'I just tried recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 18:21:30', 'category': 'food', 'sentiment': 0.45, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-26 18:21:35 | INFO | {'message': 'I just tried recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:21:35', 'category': 'food', 'sentiment': 0.53, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-26 18:21:40 | INFO | {'message': 'I just found a meme! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-26 18:21:40', 'category': 'humor', 'sentiment': 0.96, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-26 18:21:45 | INFO | {'message': 'I just saw travel! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:21:45', 'category': 'travel', 'sentiment': 0.54, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-26 18:21:50 | INFO | {'message': 'I just found an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 18:21:50', 'category': 'other', 'sentiment': 0.51, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 18:21:55 | INFO | {'message': 'I just tried an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 18:21:55', 'category': 'other', 'sentiment': 0.52, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 18:22:00 | INFO | {'message': 'I just loved a story! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:22:00', 'category': 'other', 'sentiment': 0.47, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 18:22:05 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-26 18:22:05', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-26 18:22:10 | INFO | {'message': 'I just shared an app! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 18:22:10', 'category': 'other', 'sentiment': 0.37, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 18:22:15 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 18:22:15', 'category': 'other', 'sentiment': 0.29, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-26 18:22:20 | INFO | {'message': 'I just shared Python! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 18:22:20', 'category': 'tech', 'sentiment': 0.09, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-26 18:22:25 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:22:25', 'category': 'other', 'sentiment': 0.19, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-26 18:22:30 | INFO | {'message': 'I just found a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 18:22:30', 'category': 'humor', 'sentiment': 0.41, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-26 18:22:35 | INFO | {'message': 'I just loved a meme! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-26 18:22:35', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-26 18:22:40 | INFO | {'message': 'I just saw recipe! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:22:40', 'category': 'food', 'sentiment': 0.72, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-26 18:22:45 | INFO | {'message': 'I just found Python! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-26 18:22:45', 'category': 'tech', 'sentiment': 0.91, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-26 18:22:50 | INFO | {'message': 'I just loved travel! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-26 18:22:50', 'category': 'travel', 'sentiment': 0.84, 'keyword_mentioned': 'travel', 'message_length': 37}
+2025-09-26 18:22:55 | INFO | {'message': 'I just loved a meme! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 18:22:55', 'category': 'humor', 'sentiment': 0.91, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-26 18:23:00 | INFO | {'message': 'I just found JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 18:23:00', 'category': 'tech', 'sentiment': 0.07, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-26 18:23:05 | INFO | {'message': 'I just loved an app! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 18:23:05', 'category': 'other', 'sentiment': 0.99, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 18:23:10 | INFO | {'message': 'I just shared a meme! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-26 18:23:10', 'category': 'humor', 'sentiment': 0.71, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-26 18:23:15 | INFO | {'message': 'I just saw JavaScript! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:23:15', 'category': 'tech', 'sentiment': 0.19, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-26 18:23:20 | INFO | {'message': 'I just tried game! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-26 18:23:20', 'category': 'gaming', 'sentiment': 0.15, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-26 18:23:25 | INFO | {'message': 'I just shared recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-26 18:23:25', 'category': 'food', 'sentiment': 0.36, 'keyword_mentioned': 'recipe', 'message_length': 38}
+2025-09-26 18:23:27 | WARNING | Producer interrupted by user.
+2025-09-26 18:23:27 | INFO | Producer shutting down.
+2025-09-26 19:31:54 | INFO | Logging to file: logs/project_log.log
+2025-09-26 19:31:54 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 19:31:55 | INFO | Starting Producer to run continuously.
+2025-09-26 19:31:55 | INFO | Use Ctrl+C to stop.
+2025-09-26 19:31:55 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 19:31:55 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 19:31:55 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 19:31:55 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:31:55 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 19:31:55 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:31:55 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 19:31:55 | INFO | Deleted existing live data file.
+2025-09-26 19:31:55 | INFO | Kafka broker address: localhost:9092
+2025-09-26 19:31:56 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 19:31:58 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 19:31:58 | INFO | {'message': 'I just loved a movie! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 19:31:58', 'category': 'entertainment', 'sentiment': 0.4, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-26 19:32:03 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 19:32:03', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-26 19:32:08 | INFO | {'message': 'I just loved a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 19:32:08', 'category': 'other', 'sentiment': 0.73, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 19:32:13 | INFO | {'message': 'I just shared JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 19:32:13', 'category': 'tech', 'sentiment': 0.83, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
+2025-09-26 19:32:14 | INFO | Logging to file: logs/project_log.log
+2025-09-26 19:32:14 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 19:32:14 | INFO | Starting consumer_dowdle.
+2025-09-26 19:32:14 | INFO | Deleted old database.
+2025-09-26 19:32:14 | INFO | Initializing SQLite DB at C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle.sqlite
+2025-09-26 19:32:14 | INFO | Step 1. Verify Kafka Services.
+2025-09-26 19:32:14 | INFO | Kafka broker address: localhost:9092
+2025-09-26 19:32:15 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 19:32:15 | INFO | Step 2. Create Kafka consumer.
+2025-09-26 19:32:15 | INFO | Kafka broker address: localhost:9092
+2025-09-26 19:32:15 | INFO | Creating Kafka consumer. Topic='buzzline_dowdle' and group ID='buzz_dowdle'.
+2025-09-26 19:32:15 | INFO | Kafka consumer created successfully.
+2025-09-26 19:32:15 | INFO | Step 3. Verify topic exists.
+2025-09-26 19:32:15 | INFO | Kafka broker address: localhost:9092
+2025-09-26 19:32:15 | INFO | Topic 'buzzline_dowdle' already exists. Recreating fresh...
+2025-09-26 19:32:15 | INFO | Requested deletion of topic 'buzzline_dowdle'.
+2025-09-26 19:32:16 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 19:32:16 | INFO | Verified topic 'buzzline_dowdle' is available.
+2025-09-26 19:32:16 | INFO | Step 4. Process messages in real time (Ctrl+C to stop).
+2025-09-26 19:32:18 | INFO | {'message': 'I just found game! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 19:32:18', 'category': 'gaming', 'sentiment': 0.66, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 19:32:23 | INFO | {'message': 'I just shared a story! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 19:32:23', 'category': 'other', 'sentiment': 0.08, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 19:32:28 | INFO | {'message': 'I just tried an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-26 19:32:28', 'category': 'other', 'sentiment': 0.06, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 19:32:33 | INFO | {'message': 'I just shared travel! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 19:32:33', 'category': 'travel', 'sentiment': 0.07, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-26 19:32:38 | INFO | {'message': 'I just loved an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-26 19:32:38', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 19:32:43 | INFO | {'message': 'I just found JavaScript! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 19:32:43', 'category': 'tech', 'sentiment': 0.81, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-26 19:32:48 | INFO | {'message': 'I just found a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 19:32:48', 'category': 'other', 'sentiment': 0.8, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-26 19:32:53 | INFO | {'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-26 19:32:53', 'category': 'travel', 'sentiment': 0.73, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-26 19:32:58 | INFO | {'message': 'I just saw game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 19:32:58', 'category': 'gaming', 'sentiment': 0.43, 'keyword_mentioned': 'game', 'message_length': 30}
+2025-09-26 19:33:03 | INFO | {'message': 'I just tried JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-26 19:33:03', 'category': 'tech', 'sentiment': 0.96, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-26 19:33:08 | INFO | {'message': 'I just shared a story! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 19:33:08', 'category': 'other', 'sentiment': 0.48, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 19:33:13 | INFO | {'message': 'I just tried recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-26 19:33:13', 'category': 'food', 'sentiment': 0.82, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-26 19:33:14 | WARNING | Producer interrupted by user.
+2025-09-26 19:33:14 | INFO | Producer shutting down.
+2025-09-26 19:57:06 | INFO | Logging to file: logs/project_log.log
+2025-09-26 19:57:06 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 19:57:07 | INFO | Starting Producer to run continuously.
+2025-09-26 19:57:07 | INFO | Use Ctrl+C to stop.
+2025-09-26 19:57:07 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 19:57:07 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 19:57:07 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 19:57:07 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:57:07 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 19:57:07 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:57:07 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 19:57:07 | INFO | Deleted existing live data file.
+2025-09-26 19:57:07 | INFO | Kafka broker address: localhost:9092
+2025-09-26 19:57:07 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 19:57:09 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 19:57:09 | INFO | {'message': 'I just shared travel! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 19:57:09', 'category': 'travel', 'sentiment': 0.2, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-26 19:57:15 | INFO | {'message': 'I just loved a trick! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 19:57:15', 'category': 'other', 'sentiment': 0.7, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-26 19:57:20 | INFO | {'message': 'I just found a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-26 19:57:20', 'category': 'entertainment', 'sentiment': 0.21, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-26 19:57:21 | WARNING | Producer interrupted by user.
+2025-09-26 19:57:21 | INFO | Producer shutting down.
+2025-09-26 19:59:03 | INFO | Logging to file: logs/project_log.log
+2025-09-26 19:59:03 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 19:59:03 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 19:59:03 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 19:59:03 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:59:03 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 19:59:03 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:59:03 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 19:59:03 | INFO | Starting Producer to run continuously.
+2025-09-26 19:59:03 | INFO | Use Ctrl+C to stop.
+2025-09-26 19:59:38 | INFO | Logging to file: logs/project_log.log
+2025-09-26 19:59:38 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 19:59:38 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 19:59:38 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 19:59:38 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:59:38 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 19:59:38 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 19:59:38 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 19:59:38 | INFO | Starting Producer to run continuously.
+2025-09-26 19:59:38 | INFO | Use Ctrl+C to stop.
+2025-09-26 20:16:10 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:16:10 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:16:11 | INFO | Starting Producer to run continuously.
+2025-09-26 20:16:11 | INFO | Use Ctrl+C to stop.
+2025-09-26 20:18:41 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:18:41 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:18:41 | INFO | Starting utils_producer.py script...
+2025-09-26 20:18:41 | INFO | Loading environment variables from .env file...
+2025-09-26 20:18:41 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:18:42 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 20:18:42 | INFO | All services are ready. Proceed with producer setup.
+2025-09-26 20:18:42 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:18:43 | INFO | Topic 'test_topic' created successfully.
+2025-09-26 20:20:30 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:20:30 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:20:30 | INFO | Starting utils_producer.py script...
+2025-09-26 20:20:30 | INFO | Loading environment variables from .env file...
+2025-09-26 20:20:30 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:20:30 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 20:20:30 | INFO | All services are ready. Proceed with producer setup.
+2025-09-26 20:20:30 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:20:31 | INFO | Topic 'test_topic' already exists. Recreating fresh...
+2025-09-26 20:20:31 | INFO | Requested deletion of topic 'test_topic'.
+2025-09-26 20:20:31 | INFO | Topic 'test_topic' created successfully.
+2025-09-26 20:20:31 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:20:31 | INFO | Topic 'buzzline_dowdle' already exists. Recreating fresh...
+2025-09-26 20:20:31 | INFO | Requested deletion of topic 'buzzline_dowdle'.
+2025-09-26 20:20:31 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 20:20:31 | INFO | Verified topic 'buzzline_dowdle' is available.
+2025-09-26 20:24:18 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:24:18 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:24:19 | INFO | Starting Producer to run continuously.
+2025-09-26 20:24:19 | INFO | Use Ctrl+C to stop.
+2025-09-26 20:24:19 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 20:24:19 | INFO | BUZZ_TOPIC: buzzline
+2025-09-26 20:24:19 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 20:24:19 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 20:24:19 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 20:24:19 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 20:24:19 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 20:24:19 | INFO | Deleted existing live data file.
+2025-09-26 20:24:19 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:24:20 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 20:24:22 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 20:24:22 | INFO | {'message': 'I just saw a movie! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 20:24:22', 'category': 'entertainment', 'sentiment': 0.53, 'keyword_mentioned': 'movie', 'message_length': 33}
+2025-09-26 20:24:24 | WARNING | Producer interrupted by user.
+2025-09-26 20:24:24 | INFO | Producer shutting down.
+2025-09-26 20:32:24 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:32:24 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:32:24 | INFO | Starting Producer to run continuously.
+2025-09-26 20:32:24 | INFO | Use Ctrl+C to stop.
+2025-09-26 20:32:24 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 20:32:24 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-26 20:32:24 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 20:32:24 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 20:32:24 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 20:32:24 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 20:32:24 | INFO | Deleted existing live data file.
+2025-09-26 20:32:24 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:32:25 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 20:32:27 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-26 20:32:27 | INFO | {'message': 'I just loved Python! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 20:32:27', 'category': 'tech', 'sentiment': 0.69, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-26 20:32:32 | INFO | {'message': 'I just shared a movie! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-26 20:32:32', 'category': 'entertainment', 'sentiment': 0.3, 'keyword_mentioned': 'movie', 'message_length': 39}
+2025-09-26 20:32:35 | WARNING | Producer interrupted by user.
+2025-09-26 20:32:35 | INFO | Producer shutting down.
+2025-09-26 20:39:00 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:39:00 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:39:00 | INFO | Starting Producer to run continuously.
+2025-09-26 20:39:00 | INFO | Use Ctrl+C to stop.
+2025-09-26 20:39:00 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 20:39:00 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 20:39:00 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 20:39:00 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 20:39:00 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 20:39:00 | INFO | Deleted existing live data file.
+2025-09-26 20:39:00 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:39:01 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 20:39:01 | INFO | Kafka producer connected to localhost:9092
+2025-09-26 20:39:01 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:39:02 | INFO | Topic 'buzzline_dowdle' already exists. Recreating fresh...
+2025-09-26 20:39:02 | INFO | Requested deletion of topic 'buzzline_dowdle'.
+2025-09-26 20:39:02 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 20:39:02 | INFO | Kafka topic 'buzzline_dowdle' is ready.
+2025-09-26 20:39:02 | INFO | {'message': 'I just shared travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-26 20:39:02', 'category': 'travel', 'sentiment': 0.78, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-26 20:39:07 | INFO | {'message': 'I just saw travel! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 20:39:07', 'category': 'travel', 'sentiment': 0.21, 'keyword_mentioned': 'travel', 'message_length': 33}
+2025-09-26 20:39:12 | INFO | {'message': 'I just loved a story! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-26 20:39:12', 'category': 'other', 'sentiment': 0.68, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-26 20:39:17 | INFO | {'message': 'I just found a trick! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-26 20:39:17', 'category': 'other', 'sentiment': 0.64, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 20:39:22 | INFO | {'message': 'I just saw a trick! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 20:39:22', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-26 20:39:27 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-26 20:39:27', 'category': 'humor', 'sentiment': 0.5, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-26 20:39:32 | INFO | {'message': 'I just found game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-26 20:39:32', 'category': 'gaming', 'sentiment': 0.81, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 20:39:37 | INFO | {'message': 'I just shared JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 20:39:37', 'category': 'tech', 'sentiment': 0.86, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-26 20:39:38 | INFO | Logging to file: logs/project_log.log
+2025-09-26 20:39:38 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 20:39:38 | INFO | Starting consumer_dowdle.
+2025-09-26 20:39:38 | INFO | Deleted old database.
+2025-09-26 20:39:38 | INFO | Initializing SQLite DB at C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle.sqlite
+2025-09-26 20:39:38 | INFO | Step 1. Verify Kafka Services.
+2025-09-26 20:39:38 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:39:38 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 20:39:38 | INFO | Step 2. Create Kafka consumer.
+2025-09-26 20:39:38 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:39:38 | INFO | Creating Kafka consumer. Topic='buzzline_dowdle' and group ID='buzz_dowdle'.
+2025-09-26 20:39:38 | INFO | Kafka consumer created successfully.
+2025-09-26 20:39:38 | INFO | Step 3. Verify topic exists.
+2025-09-26 20:39:38 | INFO | Kafka broker address: localhost:9092
+2025-09-26 20:39:39 | INFO | Topic 'buzzline_dowdle' already exists. Recreating fresh...
+2025-09-26 20:39:39 | INFO | Requested deletion of topic 'buzzline_dowdle'.
+2025-09-26 20:39:39 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 20:39:39 | INFO | Verified topic 'buzzline_dowdle' is available.
+2025-09-26 20:39:39 | INFO | Step 4. Process messages in real time (Ctrl+C to stop).
+2025-09-26 20:39:42 | INFO | {'message': 'I just shared a movie! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-26 20:39:42', 'category': 'entertainment', 'sentiment': 0.89, 'keyword_mentioned': 'movie', 'message_length': 36}
+2025-09-26 20:39:43 | INFO | Processing message: keyword=movie
+2025-09-26 20:39:43 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with movie=1
+2025-09-26 20:39:47 | INFO | {'message': 'I just saw game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 20:39:47', 'category': 'gaming', 'sentiment': 0.83, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-26 20:39:47 | INFO | Processing message: keyword=game
+2025-09-26 20:39:47 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=1
+2025-09-26 20:39:52 | INFO | {'message': 'I just loved Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-26 20:39:52', 'category': 'tech', 'sentiment': 0.41, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-26 20:39:52 | INFO | Processing message: keyword=Python
+2025-09-26 20:39:52 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with Python=1
+2025-09-26 20:39:57 | INFO | {'message': 'I just loved travel! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-26 20:39:57', 'category': 'travel', 'sentiment': 0.62, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-26 20:39:57 | INFO | Processing message: keyword=travel
+2025-09-26 20:39:57 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with travel=1
+2025-09-26 20:40:02 | INFO | {'message': 'I just shared JavaScript! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 20:40:02', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-26 20:40:02 | INFO | Processing message: keyword=JavaScript
+2025-09-26 20:40:02 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with JavaScript=1
+2025-09-26 20:40:07 | INFO | {'message': 'I just saw an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 20:40:07', 'category': 'other', 'sentiment': 0.77, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-26 20:40:07 | INFO | Processing message: keyword=other
+2025-09-26 20:40:07 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with other=1
+2025-09-26 20:40:12 | INFO | {'message': 'I just shared a story! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-26 20:40:12', 'category': 'other', 'sentiment': 0.2, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-26 20:40:12 | INFO | Processing message: keyword=other
+2025-09-26 20:40:12 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with other=2
+2025-09-26 20:40:17 | INFO | {'message': 'I just loved game! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-26 20:40:17', 'category': 'gaming', 'sentiment': 0.56, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-26 20:40:17 | INFO | Processing message: keyword=game
+2025-09-26 20:40:17 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=2
+2025-09-26 20:40:22 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-26 20:40:22', 'category': 'entertainment', 'sentiment': 0.32, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-26 20:40:22 | INFO | Processing message: keyword=movie
+2025-09-26 20:40:22 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with movie=2
+2025-09-26 20:40:27 | INFO | {'message': 'I just tried Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-26 20:40:27', 'category': 'tech', 'sentiment': 0.85, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-26 20:40:27 | INFO | Processing message: keyword=Python
+2025-09-26 20:40:27 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with Python=2
+2025-09-26 20:40:32 | INFO | {'message': 'I just shared JavaScript! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-26 20:40:32', 'category': 'tech', 'sentiment': 0.36, 'keyword_mentioned': 'JavaScript', 'message_length': 42}
+2025-09-26 20:40:32 | INFO | Processing message: keyword=JavaScript
+2025-09-26 20:40:32 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with JavaScript=2
+2025-09-26 20:40:37 | INFO | {'message': 'I just found an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-26 20:40:37', 'category': 'other', 'sentiment': 0.29, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 20:40:37 | INFO | Processing message: keyword=other
+2025-09-26 20:40:37 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with other=3
+2025-09-26 20:40:42 | INFO | Processing message: keyword=movie

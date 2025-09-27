@@ -32,6 +32,9 @@ from utils.utils_logger import logger
 
 DEFAULT_KAFKA_BROKER_ADDRESS = "localhost:9092"
 
+# Addding so P5 can be implemented
+DEFAULT_KAFKA_TOPIC = "buzzline_dowdle"
+
 #####################################
 # Helper Functions
 #####################################
@@ -154,7 +157,7 @@ def _delete_topic_if_exists(admin: KafkaAdminClient, topic_name: str) -> None:
         logger.warning(f"Ignoring topic deletion issue for '{topic_name}': {e}")
 
 
-def create_kafka_topic(topic_name, group_id=None) -> None:
+def create_kafka_topic(topic_name: str = DEFAULT_KAFKA_TOPIC, group_id=None) -> None:
     """
     Create a fresh Kafka topic with the given name.
     If it already exists, delete and recreate it (simple reset; no retention tweaks).
@@ -220,7 +223,7 @@ def clear_kafka_topic(topic_name: str, group_id: Optional[str] = None):
         admin_client.close()
 
 # adding this so kafka consumer code works without an error
-def is_topic_available(topic: str) -> bool:
+def is_topic_available(topic: str = DEFAULT_KAFKA_TOPIC) -> bool:
     """
     Simple wrapper to check if a Kafka topic exists.
     In this case, we just call create_kafka_topic (idempotent).
@@ -262,3 +265,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # --- TEST DEFAULT TOPIC ---
+    topic = DEFAULT_KAFKA_TOPIC
+    print(f"Testing default Kafka topic: {topic}")
+
+    if is_topic_available():  # call without passing topic
+        print(f"Topic '{DEFAULT_KAFKA_TOPIC}' is available/created successfully.")
+    else:
+        print(f"Topic '{DEFAULT_KAFKA_TOPIC}' is NOT available.")

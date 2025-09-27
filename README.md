@@ -1,5 +1,63 @@
 # buzzline-05-dowdle
+Overview
 
+This project streams JSON messages representing social interactions, tracking keywords, sentiments, and other metadata in real time.
+
+New Consumer: [consumer_dowdle.py](https://github.com/Bdowdle4/buzzline-05-dowdle/blob/main/consumers/consumer_dowdle.py)
+
+Purpose:
+The consumer_dowdle.py script consumes messages from the Kafka topic buzzline_dowdle in real time and tracks the occurrence of each keyword mentioned in messages.
+
+Focus/Insight:
+We are focusing on keyword frequency, which allows us to see which topics or items are most discussed in real time. This insight can help understand trends, popular topics, or emerging interests in the message stream.
+
+What is calculated and stored:
+
+SQLite (dowdle.sqlite):
+   For each message, the consumer increments a counter for the keyword_mentioned field. The database table keyword_counts contains:
+
+   * keyword (TEXT, PRIMARY KEY)
+
+   * count (INTEGER, cumulative number of mentions)
+
+JSON file (dowdle_live.json):
+   A mirrored JSON file maintains the same keyword counts, making it easy to inspect without querying SQLite.
+
+This dual-storage approach ensures both persistence (SQLite) and quick inspection (JSON).
+
+## Running the Producer
+
+The provided producer script streams messages to Kafka. To run it without modifications:
+
+```# Activate your virtual environment first
+# Windows
+py -m producers.producer_case
+
+# Mac/Linux
+python3 -m producers.producer_case
+```
+
+Note: Make sure Kafka is running locally on **127.0.0.1:9092** and the topic **buzzline_dowdle** exists. The producer will create it automatically if needed.
+
+## Running the New Consumer
+
+To run the consumer_dowdle script and track keyword counts:
+
+```# Windows
+py -m consumers.consumer_dowdle
+
+# Mac/Linux
+python3 -m consumers.consumer_dowdle
+```
+
+Behavior:
+On start, any existing dowdle.sqlite or dowdle_live.json files are deleted to start fresh.
+
+Consumes messages in real time and updates SQLite and JSON with keyword counts.
+
+Press `Ctrl+C` to stop the consumer safely.
+
+****
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
 In this example project, we incorporate relational data stores. 

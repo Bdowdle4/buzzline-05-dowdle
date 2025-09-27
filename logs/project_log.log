@@ -9,3 +9,96 @@
 2025-09-26 20:41:00 | WARNING | Producer interrupted by user.
 2025-09-26 20:41:00 | INFO | Kafka producer closed.
 2025-09-26 20:41:00 | INFO | Producer shutting down.
+2025-09-26 21:41:57 | INFO | Logging to file: logs/project_log.log
+2025-09-26 21:41:57 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 21:41:58 | INFO | Starting Producer to run continuously.
+2025-09-26 21:41:58 | INFO | Use Ctrl+C to stop.
+2025-09-26 21:41:58 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-26 21:41:58 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 21:41:58 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/project_live.json
+2025-09-26 21:41:58 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data
+2025-09-26 21:41:58 | INFO | SQLITE_PATH: C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/buzz.sqlite
+2025-09-26 21:41:58 | INFO | Deleted existing live data file.
+2025-09-26 21:41:58 | INFO | Kafka broker address: localhost:9092
+2025-09-26 21:41:59 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 21:41:59 | INFO | Kafka producer connected to localhost:9092
+2025-09-26 21:41:59 | INFO | Kafka broker address: localhost:9092
+2025-09-26 21:41:59 | INFO | Topic 'buzzline_dowdle' already exists. Recreating fresh...
+2025-09-26 21:42:00 | INFO | Requested deletion of topic 'buzzline_dowdle'.
+2025-09-26 21:42:00 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 21:42:00 | INFO | Kafka topic 'buzzline_dowdle' is ready.
+2025-09-26 21:42:00 | INFO | {'message': 'I just found an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-26 21:42:00', 'category': 'other', 'sentiment': 0.12, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 21:42:05 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:05', 'category': 'humor', 'sentiment': 0.88, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-26 21:42:10 | INFO | {'message': 'I just tried JavaScript! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:10', 'category': 'tech', 'sentiment': 0.92, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-26 21:42:13 | INFO | Logging to file: logs/project_log.log
+2025-09-26 21:42:13 | INFO | Log sanitization enabled, personal info removed
+2025-09-26 21:42:13 | INFO | Starting consumer_dowdle.
+2025-09-26 21:42:13 | INFO | Deleted old database.
+2025-09-26 21:42:13 | INFO | Deleted old JSON file.
+2025-09-26 21:42:13 | INFO | Initializing SQLite DB at C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle.sqlite
+2025-09-26 21:42:13 | INFO | Step 1. Verify Kafka Services.
+2025-09-26 21:42:13 | INFO | Kafka broker address: localhost:9092
+2025-09-26 21:42:14 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'N6hvXfg2QL-uPxvF0foOZQ', 'controller_id': 1}
+2025-09-26 21:42:14 | INFO | Step 2. Create Kafka consumer.
+2025-09-26 21:42:14 | INFO | Kafka broker address: localhost:9092
+2025-09-26 21:42:14 | INFO | Creating Kafka consumer. Topic='buzzline_dowdle' and group ID='buzz_dowdle'.
+2025-09-26 21:42:14 | INFO | Kafka consumer created successfully.
+2025-09-26 21:42:14 | INFO | Step 3. Verify topic exists.
+2025-09-26 21:42:14 | INFO | Kafka broker address: localhost:9092
+2025-09-26 21:42:14 | INFO | Topic 'buzzline_dowdle' already exists. Recreating fresh...
+2025-09-26 21:42:14 | INFO | Requested deletion of topic 'buzzline_dowdle'.
+2025-09-26 21:42:14 | INFO | Topic 'buzzline_dowdle' created successfully.
+2025-09-26 21:42:14 | INFO | Verified topic 'buzzline_dowdle' is available.
+2025-09-26 21:42:14 | INFO | Step 4. Process messages in real time (Ctrl+C to stop).
+2025-09-26 21:42:15 | INFO | {'message': 'I just tried JavaScript! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:15', 'category': 'tech', 'sentiment': 0.13, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-26 21:42:18 | INFO | Processing message: keyword=JavaScript
+2025-09-26 21:42:18 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with JavaScript=1
+2025-09-26 21:42:20 | INFO | {'message': 'I just found game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 21:42:20', 'category': 'gaming', 'sentiment': 0.01, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 21:42:20 | INFO | Processing message: keyword=game
+2025-09-26 21:42:20 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=1
+2025-09-26 21:42:25 | INFO | {'message': 'I just loved game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-26 21:42:25', 'category': 'gaming', 'sentiment': 0.1, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 21:42:25 | INFO | Processing message: keyword=game
+2025-09-26 21:42:25 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=2
+2025-09-26 21:42:30 | INFO | {'message': 'I just tried JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:30', 'category': 'tech', 'sentiment': 0.53, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-26 21:42:30 | INFO | Processing message: keyword=JavaScript
+2025-09-26 21:42:30 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with JavaScript=2
+2025-09-26 21:42:35 | INFO | {'message': 'I just loved game! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:35', 'category': 'gaming', 'sentiment': 0.57, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 21:42:35 | INFO | Processing message: keyword=game
+2025-09-26 21:42:35 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=3
+2025-09-26 21:42:40 | INFO | {'message': 'I just saw a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:40', 'category': 'humor', 'sentiment': 0.33, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-26 21:42:40 | INFO | Processing message: keyword=meme
+2025-09-26 21:42:40 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with meme=1
+2025-09-26 21:42:45 | INFO | {'message': 'I just saw game! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-26 21:42:45', 'category': 'gaming', 'sentiment': 0.61, 'keyword_mentioned': 'game', 'message_length': 30}
+2025-09-26 21:42:45 | INFO | Processing message: keyword=game
+2025-09-26 21:42:45 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=4
+2025-09-26 21:42:50 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-26 21:42:50', 'category': 'entertainment', 'sentiment': 0.63, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-26 21:42:50 | INFO | Processing message: keyword=movie
+2025-09-26 21:42:50 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with movie=1
+2025-09-26 21:42:55 | INFO | {'message': 'I just found an app! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-26 21:42:55', 'category': 'other', 'sentiment': 0.17, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-26 21:42:55 | INFO | Processing message: keyword=other
+2025-09-26 21:42:55 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with other=1
+2025-09-26 21:43:00 | INFO | {'message': 'I just found an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-26 21:43:00', 'category': 'other', 'sentiment': 0.48, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-26 21:43:00 | INFO | Processing message: keyword=other
+2025-09-26 21:43:00 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with other=2
+2025-09-26 21:43:05 | INFO | {'message': 'I just loved a trick! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-26 21:43:05', 'category': 'other', 'sentiment': 0.19, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-26 21:43:05 | INFO | Processing message: keyword=other
+2025-09-26 21:43:05 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with other=3
+2025-09-26 21:43:10 | INFO | {'message': 'I just saw game! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-26 21:43:10', 'category': 'gaming', 'sentiment': 0.13, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-26 21:43:10 | INFO | Processing message: keyword=game
+2025-09-26 21:43:10 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=5
+2025-09-26 21:43:15 | INFO | {'message': 'I just tried travel! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-26 21:43:15', 'category': 'travel', 'sentiment': 0.89, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-26 21:43:15 | INFO | Processing message: keyword=travel
+2025-09-26 21:43:15 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with travel=1
+2025-09-26 21:43:20 | INFO | {'message': 'I just found game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-26 21:43:20', 'category': 'gaming', 'sentiment': 0.44, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-26 21:43:21 | INFO | Processing message: keyword=game
+2025-09-26 21:43:21 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=6
+2025-09-26 21:43:25 | INFO | {'message': 'I just shared game! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-26 21:43:25', 'category': 'gaming', 'sentiment': 0.46, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-26 21:43:25 | INFO | Processing message: keyword=game
+2025-09-26 21:43:25 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with game=7
+2025-09-26 21:43:30 | INFO | {'message': 'I just tried a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-26 21:43:30', 'category': 'humor', 'sentiment': 0.53, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-26 21:43:30 | INFO | Processing message: keyword=meme
+2025-09-26 21:43:30 | INFO | Updated JSON file C:/Users/USER/Documents/44671/buzzline-05-dowdle/data/dowdle_live.json with meme=2
+2025-09-26 21:43:35 | INFO | {'message': 'I just found a meme! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-26 21:43:35', 'category': 'humor', 'sentiment': 0.13, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-26 21:43:37 | WARNING | Producer interrupted by user.
+2025-09-26 21:43:37 | INFO | Kafka producer closed.
+2025-09-26 21:43:37 | INFO | Producer shutting down.
